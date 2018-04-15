@@ -7,3 +7,79 @@ html {
 *, *:before, *:after {
 	box-sizing: inherit;
 }
+
+body {
+	background:  #e1ebef;
+	font-size:   16px;
+	font-weight: 400;
+}
+
+/* // Structure */
+input,
+select,
+.select-custom {
+	display: block;
+	width:   100%;
+}
+
+input,
+.select-custom {
+	padding: .75rem 1rem;
+}
+
+label {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+/*// skin*/
+input,
+select {
+	font-size: 14px;
+	outline:   none;
+	color:     inherit;
+}
+
+input,
+.select-custom {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+._push {
+	margin-bottom: 1rem;
+}
+
+._push-small {
+	margin-bottom: .5rem;
+}
+
+._bg-white {
+	background: white;
+}
+
+.card {
+	background: white;
+	padding:    2rem;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+button {
+	border-radius: 0;
+	padding:       0.75rem;
+	font-size:     16px;
+	background:    #5e5eff;
+	border:        rgba(0, 0, 0, 0.1);
+	color:         white;
+}
+
+.select-custom.disabled {
+	background: rgba(0, 0, 0, 0.05);
+}
+
+.select-custom select {
+	border:           none;
+	width:            100%;
+	background-color: transparent;
+}
